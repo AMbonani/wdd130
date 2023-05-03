@@ -54,3 +54,11 @@ footer {
 	font-style: italic;
 }
 
+section.stats {
+	position: absolute;
+	bottom: 80px;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	
+  }
