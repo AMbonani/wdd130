@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <meta name="description" content="Company Contact Details.">
+    <meta name="author" content="Abigail Mbonani">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rapidslogo.jpeg" alt="Rafting Site Logo">
+        <div class="header-container">
+            <div class="logo">logo</div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div class="nav-container">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <p>Address: Spes Bona Farm, Silvermine Rd, Noordhoek, Cape Town, 7979 </p>
+            <p>Phone:+27 21 456 7890</p>
+            <p>Email: info@waterrafters.co.za</p>
+        </section>
+
+        <section class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.955263602091!2d18.383130576638287!3d-34.09628648087904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc6a4bd49dcd65%3A0x33abaf7df6f2357!2sCape%20Point%20Vineyards%20Estate%2C%20Cape%20Town%2C%207979!5e0!3m2!1sen!2sza!4v1685570150718!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Employee Profiles</h2>
+            <figure>
+                <img src="images/employee1.png" alt="Employee 1">
+                <figcaption>Rose Thorn - Events Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.png" alt="Employee 2">
+                <figcaption>Lilly Fields - Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.png" alt="Employee 3">
+                <figcaption>Mike Johnson - MD</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="purpose">Purpose of Message:</label>
+                    <select id="purpose" name="purpose" required>
+                        <option value="">Select an option</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="reservation">Reservation Question</option>
+                        <option value="suggestion">Website Suggestion</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
+                    </label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 | White Water Rafters | Abigail Mbonani </p>
+        <div class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook" width="100">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter" width="100">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram" width="100">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
+
