@@ -7,83 +7,115 @@
   --accent2-color: #68b0ab;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: bolder;
-  margin-bottom: 1rem;
-  color: var(--primary-color);
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: bolder;
-  margin-bottom: 1rem;
-  color: var(--primary-color);
-}
-
-p {
-  font-size: 1.125rem;
-  line-height: normal;
-  margin-bottom: 1rem;
-}
-
-a {
-  text-decoration: none;
-}
-
 body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fff;
   padding: 1rem;
 }
 
-.sociallinks a {
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #f9dc5c;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
   text-decoration: none;
+  margin-right: 1rem;
 }
 
 .hero {
   position: relative;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fff;
 }
 
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-  position: absolute;
-}
-
-h1,
-h2 {
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   color: var(--primary-color);
 }
 
-article {
-  position: absolute;
+.hero article {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2rem;
   color: black;
 }
 
-article img {
-  float: right;
+.hero article img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+section figure {
+  display: inline-block;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+section figure img {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin-bottom: 0.5rem;
 }
 
 footer {
   background-color: var(--secondary-color);
   padding: 1rem;
   color: white;
+  text-align: center;
 }
 
-.footer p {
+footer p {
   margin: 0;
 }
 
-.footer .sociallinks {
-  display: flex;
-  justify-content: center;
+.sociallinks {
   margin-top: 1rem;
 }
 
-.footer .sociallinks img {
-  margin: 0 0.5rem;
+.sociallinks a {
+  display: inline-block;
+  margin-right: 0.5rem;
 }
+
+.sociallinks img {
+  width: 100px;
+  height: auto;
+}
+
