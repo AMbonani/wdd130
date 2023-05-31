@@ -91,6 +91,7 @@ body {
     padding: 1rem;
     background-color: beige;
     color: black;
+    width: 35em
 }
 
 aside{
@@ -98,6 +99,10 @@ aside{
     text-align: left;
     position: relative;
 }
+
+.box-heading {
+    margin-bottom: 1rem; /* Add margin at the bottom to create space for the text */
+  }
 
 /* class selectors, margin 1rem to match the root, padding also 1rem, backround color beige with black  */
 
