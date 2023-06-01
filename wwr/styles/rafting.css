@@ -42,95 +42,120 @@ nav a {
   margin-right: 1rem;
 }
 
-.hero {
+.hero-section {
   position: relative;
   text-align: center;
   padding: 2rem 0;
   background-color: #fff;
 }
 
-.hero h1 {
+.hero-section h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: var(--primary-color);
 }
 
-.hero article {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 2rem;
-  color: black;
+.hero-section p {
+  color: #777;
 }
 
-.hero article img {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-section {
+.newsletter-section {
   padding: 2rem 0;
   text-align: center;
   background-color: #fff;
 }
 
-section h2 {
+.newsletter-section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: var(--primary-color);
 }
 
-section .trip {
+.newsletter-section form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
-section .trip img {
-  width: 300px;
+.newsletter-section input[type="text"],
+.newsletter-section input[type="email"] {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 200px;
+  max-width: 100%;
+}
+
+.newsletter-section button[type="submit"] {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: var(--accent1-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.call-to-action {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.call-to-action h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.call-to-action p {
+  color: #777;
+}
+
+.call-to-action .cta-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent2-color);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
   height: auto;
   margin-bottom: 1rem;
 }
 
-section .trip h3 {
+.grid-item h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-section .trip p {
+.grid-item p {
   color: #777;
 }
 
-.trip-table {
-  margin-top: 2rem;
-}
-
-.trip-table table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.trip-table th,
-.trip-table td {
-  padding: 0.5rem;
-  text-align: left;
-  border-bottom: 1px solid #ccc;
-}
-
-.trip-table th {
-  font-weight: bold;
-}
-
-footer {
+.footer {
   background-color: var(--secondary-color);
   padding: 1rem;
   color: white;
   text-align: center;
 }
 
-footer p {
+.footer p {
   margin: 0;
 }
 
@@ -146,4 +171,13 @@ footer p {
 .sociallinks img {
   width: 50px;
   height: 50px;
+}
+
+.footer-link {
+  margin-top: 1rem;
+}
+
+.footer-link a {
+  color: #fff;
+  text-decoration: none;
 }
